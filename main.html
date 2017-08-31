@@ -5,7 +5,6 @@
     <title>Project 1</title>
     <link rel="shortcut icon" href="static/favico.ico" />
     <link rel="stylesheet" type="text/css" href="static/style.css">
-    <script src="static/js.js"></script>
 </head>
 <body>
     <div class="main flex-container">
@@ -13,19 +12,26 @@
             <h1>Jeg er takknemlig for...</h1>
         </div>
         <div class="content flex-item">
+            <h2>Pannekaker!</h2>
             <div class="image-container">
                 <div class="image">
-                    <img src="images/31efa5e14ba4472113b861c77a779147.jpg">
+                    <img id="image">
                 </div>
                 <div class="<arrow-container">
                     <div class="arrows">
-                        <span id="left-arrow" class="image-arrow"> <</span>
-                        <span id="right-arrow" class="image-arrow"> > </span>
+                        <span title="Previous" id="left-arrow" class="image-arrow" onclick="prev_image()"> <</span>
+                        <span title="Next" id="right-arrow" class="image-arrow" onclick="next_image()"> > </span>
                     </div>
                 </div>
+            </div>
+            <div class="ingredients">
+                <h3>Ingredienser:</h3>
+                <p>Egg, hvetemel, salt og melk.</p>
+                <p>Evt. Sukker og smør.</p>
             </div>
         </div>
         <div class="footer flex-item"></div>
     </div>
+    <script src="static/js.js"></script>
 </body>
 </html>
