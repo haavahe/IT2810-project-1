@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-size: 16px;
+    font-family: helvetica serif;
 }
 
 .flex-container {
@@ -30,6 +31,34 @@ body {
     background-color: #f9f9f9;
     margin-left: auto;
     margin-right: auto;
+}
+
+.image-container {
+    margin: 10px 0;
+}
+
+.arrow-container {
+    width: 100%;
+}
+
+.arrows {
+    margin: 0 auto;
+    width: 90px;
+}
+
+.image-container .image-arrow {
+    font-size: 40px;
+    padding: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.image-container img {
+    margin: 0 auto;
+    min-width: 400px;
+    max-width: 800px;
+    min-height: 300px;
+    max-height: 600px;
 }
 
 .footer {
