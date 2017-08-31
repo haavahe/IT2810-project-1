@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Project 1</title>
-    <link rel="shortcut icon" href="static/favico.ico" />
+    <link rel="shortcut icon" href="static/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="static/style.css">
 </head>
 <body>
@@ -14,13 +14,12 @@
         <div class="content flex-item">
             <h2>Pannekaker!</h2>
             <div class="image-container">
-                <div class="image">
-                    <img id="image">
+                <div id="image-surround">
                 </div>
                 <div class="<arrow-container">
                     <div class="arrows">
-                        <span title="Previous" id="left-arrow" class="image-arrow" onclick="prev_image()"> <</span>
-                        <span title="Next" id="right-arrow" class="image-arrow" onclick="next_image()"> > </span>
+                        <span title="Previous" id="left-arrow" class="image-arrow" onclick="prev_image()">&lt;</span>
+                        <span title="Next" id="right-arrow" class="image-arrow" onclick="next_image()">&gt;</span>
                     </div>
                 </div>
             </div>

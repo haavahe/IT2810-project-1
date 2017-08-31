@@ -6,9 +6,14 @@ var gImages = ["images/31efa5e14ba4472113b861c77a779147.jpg",
     "images/img_8146.jpg",
     "images/large.jpg",
     "images/lg.png"],
-    gImageIndex = Math.floor(Math.random() * (gImages.length - 1));
+    gImageIndex = Math.floor(Math.random() * (gImages.length - 1)); // Randomized first image.
 
+// Initializes the img
+var img = document.createElement("img");
+img.setAttribute("id", "image");
+document.getElementById("image-surround").appendChild(img);
 set_image(gImageIndex);
+
 
 function prev_image() {
     if ((gImageIndex - 1) >= 0) {

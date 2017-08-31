@@ -42,9 +42,8 @@ h2 {
     margin: 10px 20px;
 }
 
-.image {
+#image-surround {
     background-color: #565656;
-    /*height: 450px;*/
 }
 
 .arrow-container {
@@ -53,7 +52,8 @@ h2 {
 
 .arrows {
     margin: 5px auto 0;
-    width: 90px;
+    width: 96px;
+    user-select: none;
 }
 
 .image-arrow {
