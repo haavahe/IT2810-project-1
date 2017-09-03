@@ -4,7 +4,7 @@
 1. I websiden skal det benyttes CSS for å stile elementene og vi forventer at det er lagt ned litt arbeid i å lage en visuelt tiltalende side.
     * Se static/style.css.
 2. I websiden skal du bruke CSS Flexbox layout for å posisjonere elementene (CSS Flexible Box Layout Module, sjekk på web hva det er).
-    * Se static/style.css.
+    * Har brukt flexbox for å få header og footer til å sitte på top/bunn av siden. Se static/style.css.
 3. Bruk Javascript for gjøre noen ett eller flere elementer på siden interaktiv (hva dette skal være og hvor avansert du vil gjøre det er helt opp til deg).
     * Knapper for å bytte mellom bilder. Kan også bruke høyre og venstre piltaster.
 4. Siden skal ha et favicon.
